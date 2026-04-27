@@ -20,7 +20,8 @@ CREATE TABLE rides (
 -- =========================================
 -- ТЕСТОВЫЕ ДАННЫЕ (СИНТЕТИЧЕСКИЕ)
 -- =========================================
-[27.04.2026 18:59] Полина: INSERT INTO users (registration_date, city) VALUES
+
+INSERT INTO users (registration_date, city) VALUES
 ('2024-01-05', 'Moscow'),
 ('2024-01-07', 'Moscow'),
 ('2024-01-10', 'SPB'),
@@ -31,7 +32,8 @@ CREATE TABLE rides (
 ('2024-02-03', 'Kazan'),
 ('2024-02-10', 'SPB'),
 ('2024-02-15', 'Moscow');
-[27.04.2026 18:59] Полина: INSERT INTO rides (user_id, driver_id, ride_date, distance_km, fare_amount, status) VALUES
+
+INSERT INTO rides (user_id, driver_id, ride_date, distance_km, fare_amount, status) VALUES
 -- Январь
 (1, 101, '2024-01-06 10:00', 5.2, 320, 'completed'),
 (1, 102, '2024-01-15 14:00', 3.1, 210, 'completed'),
